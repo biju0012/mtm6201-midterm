@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .brand {
+    margin-bottom: 10px;
+  }
+  
+  .brand-name {
+    font-family: "Arial Black", sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .home-banner,
+  .menu-banner,
+  .deals-banner {
+    background-color: orange;
+    padding: 20px;
+  }
+  
+  .home-banner h2,
+  .menu-banner h2,
+  .deals-banner h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  #image-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: inline-block;
+    background-color: orange;
+    padding: 10px;
+  }
+  
+  #image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #foods-button {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #food-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .food-box {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .food-box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .brand {
+    margin-bottom: 10px;
+  }
+  
+  .brand-name {
+    font-family: "Arial Black", sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .about-banner {
+    background-color: orange;
+    padding: 20px;
+  }
+  
+  .about-banner h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  #image-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #image-section img {
+    max-width: 75%;
+    height: auto;
+  }
+  
+  #contact-info {
+    text-align: center;
+  }
+  
+  .contact-box {
+    display: inline-block;
+    background-color: rgb(240, 199, 124);
+    padding: 18px;
+  }
+  
+  .contact-box h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #080606;
+  }
+  
+  .orange-rectangle {
+    background-color: rgb(244, 231, 208);
+    padding: 20px;
+  }
+  
+  .info-row {
+    margin-bottom: 50px;
+  }
+  
+  .info-label {
+    display: inline-block;
+    width: 1200px;
+    font-weight: bold;
+    color: #050404;
+  }
+  
+  .info-value {
+    display: inline-block;
+    color: #ede2e2;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333333;
+    color: #fcf1f1;
+    padding: 12px;
+  }
+  
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .brand {
+    margin-bottom: 10px;
+  }
+  
+  .brand-name {
+    font-family: "Arial Black", sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .home-box,
+  .menu-box,
+  .deals-box {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-box h2,
+  .menu-box h2,
+  .deals-box h2 {
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  #image-section img {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .brand {
+    margin-bottom: 10px;
+  }
+  
+  .brand-name {
+    font-family: "Arial Black", sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .home-box,
+  .menu-box,
+  .deals-box {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-box h2,
+  .menu-box h2,
+  .deals-box h2 {
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  #image-section img {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
